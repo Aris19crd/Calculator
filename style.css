@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+}
+
+.calculator--display {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.calculator--buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 60px);
+    grid-template-rows: minmax(60px, auto) repeat(5, 60px);
+}
+
+.span-2 {
+    grid-column: span 2;
+}
+
